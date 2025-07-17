@@ -19,6 +19,7 @@ pip install -r requirements.txt
 
 ## Download Wordlists 
 mkdir -p wordlists
+cd wordlists 
 wget https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt -O wordlists/rockyou.txt
 
 ## Basic cracking 
